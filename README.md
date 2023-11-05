@@ -19,7 +19,7 @@ This repository has software tools for different purposes.
 
     docker build -t ico_converter_image:latest .
     docker run -d --name tools_container ico_converter_image:latest
-    docker cp tools_container:/output ./output
+    docker cp tools_container:/output ./
 
 
 3. ICO files will be available inside **_output_ folder**
